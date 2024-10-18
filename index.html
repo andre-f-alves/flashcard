@@ -10,81 +10,30 @@
 
 <body>
     <main>
-        <section id="card-container" class="card-container">
-            <article class="card">
-                <div class="card-content">
-                    <h3 class="category-tag">[category]</h3>
-                    
-                    <div class="question-card">
-                        <p>[question]</p>
-                    </div>
-                    
-                    <div class="answer-card">
-                        <p>[answer]</p>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-content">
-                    <h3 class="category-tag">[category]</h3>
-                    
-                    <div class="question-card">
-                        <p>[question]</p>
-                    </div>
-                    
-                    <div class="answer-card">
-                        <p>[answer]</p>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="card">
-                <div class="card-content">
-                    <h3 class="category-tag">[category]</h3>
-                    
-                    <div class="question-card">
-                        <p>[question]</p>
-                    </div>
-                    
-                    <div class="answer-card">
-                        <p>[answer]</p>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-content">
-                    <h3 class="category-tag">[category]</h3>
-                    
-                    <div class="question-card">
-                        <p>[question]</p>
-                    </div>
-                    
-                    <div class="answer-card">
-                        <p>[answer]</p>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-content">
-                    <h3 class="category-tag">[category]</h3>
-                    
-                    <div class="question-card">
-                        <p>[question]</p>
-                    </div>
-                    
-                    <div class="answer-card">
-                        <p>[answer]</p>
-                    </div>
-                </div>
-            </article>
+        <section id="card-container" class="card-container"></section>
     </main>
 
     <footer>
         <p>Projeto desenvolvido por André Alves para o curso do Alura Start.</p>
     </footer>
+
+    <template id="card-template">
+        <article class="card">
+            <div class="card-content">
+                <h3 class="category-tag">[category]</h3>
+                
+                <div class="question-card">
+                    <p>[question]</p>
+                </div>
+                
+                <div class="answer-card">
+                    <p>[answer]</p>
+                </div>
+            </div>
+        </article>
+    </template>
+
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

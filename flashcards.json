@@ -1,0 +1,31 @@
+{
+  "flashcard01": {
+    "category": "Geografia",
+    "question": "Qual é a capital da Itália?",
+    "answer": "A capital da Itália é Roma."
+  },
+
+  "flashcard02": {
+    "category": "Matemática",
+    "question": "Qual é o resultado da expressão 9 * (7 - 5) / 3?",
+    "answer": "O resultado da expressão é 6."
+  },
+
+  "flashcard03": {
+    "category": "História",
+    "question": "Qual foi a data da proclamação da Independência do Brasil?",
+    "answer": "A Independência do Brasil foi proclamada em 7 de setembro de 1822."
+  },
+
+  "flashcard04": {
+    "category": "Biologia",
+    "question": "O que são seres procarióticos?",
+    "answer": "Seres procarióticos são aqueles que não possuem núcleo celular organizado."
+  },
+
+  "flashcard05": {
+    "category": "Química",
+    "question": "Qual número indica um pH neutro?",
+    "answer": "O número que indica um pH neutro é o 7."
+  }
+}
