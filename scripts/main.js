@@ -1,6 +1,6 @@
 (async function() {
   const url = new URL('../assets/flashcards.json', window.location.origin)
-  const flashcards = await loadCards(url)
+  const flashcards = await loadCards(url.href)
 
   for (let flashcard of flashcards) {
     generateCard(
