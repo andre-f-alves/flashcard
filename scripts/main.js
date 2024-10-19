@@ -35,5 +35,3 @@ function generateCard(category, question, answer) {
 
   cardContainer.appendChild(card)
 }
-
-
